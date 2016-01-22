@@ -21,3 +21,12 @@ Installation:
 4. Repeat the same steps for all the archetype templates.
 5. From Your IDE, while creating maven project filter the archetypes using 'com.sivalabs' and choose the template you want.
 6. Enjoy :-)
+
+
+append to pom.xml,to support mvn jetty:run
+ <plugin>
+        <groupId>org.mortbay.jetty</groupId>
+        <artifactId>maven-jetty-plugin</artifactId>
+        <version>6.1.10</version>
+        
+  </plugin>
